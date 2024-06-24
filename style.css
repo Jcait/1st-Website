@@ -33,6 +33,7 @@ footer {
 }
 
 table {
+  empty-cells: show;
   border-collapse: collapse;
 }
 
@@ -74,6 +75,7 @@ li {
 
 ul {
   padding: 0;
+  text-align: center;
 }
 
 li,
@@ -410,6 +412,11 @@ footer {
 
   .odd {
     background-color: #f4f3f9;
+  }
+
+  .lists {
+    background-color: #f4f3f9;
+    padding: 5%;
   }
 
   iframe {
