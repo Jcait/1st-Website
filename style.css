@@ -37,6 +37,10 @@ iframe {
   height: auto;
 }
 
+table {
+  height: 500px;
+  width: 700px;
+}
 th,
 td {
   font-size: 1.5rem;
@@ -295,7 +299,6 @@ footer {
 .opening-times-body {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .upcoming-events {
