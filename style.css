@@ -404,9 +404,112 @@ footer {
   font-size: 2rem;
 }
 
+/* Don't ask friends with Tiny phones to test the webpage */
+
 @media screen and (max-width: 343px) {
+  body {
+    font-size: 0.8rem;
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+  .customer-quotes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .sub-container {
+    display: flex;
+    justify-content: space-between;
+    /* font-size: 2rem; */
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    /* font-size: 2rem; */
+    flex-direction: column;
+    align-items: center;
+  }
   .nav-right {
     font-size: 0.5rem;
+    width: 80%;
+  }
+
+  .review-card {
+    width: 90%;
+  }
+
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .menu-item {
+    width: 100%;
+    margin: 1% 0;
+  }
+
+  .opening-times {
+    display: flex;
+    flex-direction: column;
+    /* padding: 1% 5% 2.5% 5%; */
+    background-color: #d5d1e8;
+    align-items: center;
+    border-radius: 2.5%;
+    width: 100%;
+    margin: 5% 0;
+    justify-content: space-around;
+    padding-bottom: 2.5%;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .opening-times-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .upcoming-events {
+    width: 100%;
+  }
+
+  .odd {
+    background-color: #f4f3f9;
+  }
+
+  .lists {
+    background-color: #f4f3f9;
+    padding: 5%;
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  li,
+  ul {
+    text-align: center;
+  }
+
+  th {
+    padding: 5%;
   }
 }
 
