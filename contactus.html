@@ -225,18 +225,25 @@
         <h1>Contact us</h1>
         <form action="#">
           <div class="form-headers">
-            <div class="form-name">
-              <label for="name"> Name: </label>
-              <input type="text" name="name" id="name" placeholder="Name " />
+            <div class="form-headers-top">
+              <div class="form-name">
+                <label for="name"> Name: </label>
+                <input type="text" name="name" id="name" placeholder="Name " />
+              </div>
+              <div class="form-email">
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="email@email.com"
+                />
+              </div>
             </div>
-            <div class="form-email">
-              <label for="email">Email:</label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="email@email.com"
-              />
+
+            <div class="form-reason">
+              <label for="reason">What does your query relate to?</label>
+              <select name="reason" id="reason"></select>
             </div>
           </div>
           <div class="form-text-container">

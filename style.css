@@ -95,7 +95,7 @@ tbody {
 input,
 textarea {
   border: none;
-  background: #f4f3f9;
+  /* background: #f4f3f9; */
   color: #1b1b1b;
   border-radius: 2.5%;
 }
@@ -355,6 +355,19 @@ footer {
   flex-wrap: wrap;
   gap: 15%;
   justify-content: center;
+}
+
+.form-headers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-reason {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2.5%;
 }
 
 @media screen and (max-width: 568px) {
