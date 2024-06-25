@@ -402,6 +402,7 @@ footer {
   border-radius: 30px;
   background-color: #f4f3f9;
   font-size: 2rem;
+  margin-top: 5%;
 }
 
 /* Don't ask friends with Tiny phones to test the webpage */
@@ -499,6 +500,12 @@ footer {
   .lists {
     background-color: #f4f3f9;
     padding: 5%;
+  }
+
+  .form-headers-top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 
   iframe {
