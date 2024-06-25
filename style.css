@@ -11,9 +11,10 @@ Nav/contrast color: #d5d1e8;
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+SK:wght@100..400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap");
 :root {
   --title-font-family: "Open Sans", sans-serif;
-  --fancy-font-family: "Playwrite US Modern", cursive;
+  --fancy-font-family: "Playwrite IT Moderna", cursive;
 }
 
 body {
@@ -246,7 +247,7 @@ footer {
 .menu-item > p {
   text-align: center;
   margin: 0;
-  font-family: "Playwrite SK", cursive;
+  font-family: var(--fancy-font-family);
 }
 
 .menu-item > img {
