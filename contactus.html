@@ -1,32 +1,417 @@
-<!-- <div class="contact-form">
-          <h1>Contact us</h1>
-          <form action="#">
-            <div class="form-headers">
-              <div class="form-name">
-                <label for="name"> Name: </label>
-                <input type="text" name="name" id="name" placeholder="Name " />
-              </div>
-              <div class="form-email">
-                <label for="email">Email:</label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="email@email.com"
-                />
-              </div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Le café Cogneur</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-links">
+        <div class="nav-left">
+          <div class="nav-icon">
+            <svg
+              fill="#000000"
+              width="64px"
+              height="64px"
+              viewBox="0 0 24 24"
+              id="coffee-beans-left"
+              data-name="Line Color"
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon line-color"
+              transform="matrix(-1, 0, 0, 1, 0, 0)"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  id="secondary"
+                  d="M6.07,3.5c4.46,4.27,3.2,5.81,4,8.18"
+                  style="
+                    fill: none;
+                    stroke: #f4f3f9;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-width: 2;
+                  "
+                ></path>
+                <path
+                  id="secondary-2"
+                  data-name="secondary"
+                  d="M14.37,8a10.14,10.14,0,0,0-.47-.93C12,3.71,8.46,2.12,6.07,3.5S3.3,8.71,5.24,12.06a8.61,8.61,0,0,0,3.47,3.42"
+                  style="
+                    fill: none;
+                    stroke: #f4f3f9;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-width: 2;
+                  "
+                ></path>
+                <path
+                  id="primary"
+                  d="M17.93,8.38c-6.41,6.13-1,6.63-6.92,12.06"
+                  style="
+                    fill: none;
+                    stroke: #000000;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-width: 2;
+                  "
+                ></path>
+                <ellipse
+                  id="primary-2"
+                  data-name="primary"
+                  cx="14.43"
+                  cy="14.44"
+                  rx="7"
+                  ry="5"
+                  transform="matrix(0.5, -0.87, 0.87, 0.5, -5.29, 19.72)"
+                  style="
+                    fill: none;
+                    stroke: #000000;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-width: 2;
+                  "
+                ></ellipse>
+              </g>
+            </svg>
+          </div>
+          <a href="index.html"><h2>Le café Cogneur</h2></a>
+          <div class="nav-icon">
+            <svg
+              fill="#000000"
+              width="64px"
+              height="64px"
+              viewBox="0 0 24 24"
+              id="coffee-beans-left"
+              data-name="Line Color"
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon line-color"
+              transform="matrix(1, 0, 0, 1, 0, 0)"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  id="secondary"
+                  d="M6.07,3.5c4.46,4.27,3.2,5.81,4,8.18"
+                  style="
+                    fill: none;
+                    stroke: #f4f3f9;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-width: 2;
+                  "
+                ></path>
+                <path
+                  id="secondary-2"
+                  data-name="secondary"
+                  d="M14.37,8a10.14,10.14,0,0,0-.47-.93C12,3.71,8.46,2.12,6.07,3.5S3.3,8.71,5.24,12.06a8.61,8.61,0,0,0,3.47,3.42"
+                  style="
+                    fill: none;
+                    stroke: #f4f3f9;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-width: 2;
+                  "
+                ></path>
+                <path
+                  id="primary"
+                  d="M17.93,8.38c-6.41,6.13-1,6.63-6.92,12.06"
+                  style="
+                    fill: none;
+                    stroke: #000000;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-width: 2;
+                  "
+                ></path>
+                <ellipse
+                  id="primary-2"
+                  data-name="primary"
+                  cx="14.43"
+                  cy="14.44"
+                  rx="7"
+                  ry="5"
+                  transform="matrix(0.5, -0.87, 0.87, 0.5, -5.29, 19.72)"
+                  style="
+                    fill: none;
+                    stroke: #000000;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke-width: 2;
+                  "
+                ></ellipse>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <div class="nav-right">
+          <a href="about.html">
+            <h2>About us</h2>
+          </a>
+          <a href="drinks.html"><h2>Drinks</h2></a>
+          <div class="nav-icon">
+            <svg
+              height="64px"
+              width="64px"
+              version="1.1"
+              id="_x32_"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 512 512"
+              xml:space="preserve"
+              fill="#000000"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <title>A Coffee Cup</title>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <style type="text/css">
+                  .st0 {
+                    fill: #f4f3f9;
+                  }
+                </style>
+                <g>
+                  <path
+                    class="st0"
+                    d="M511.06,166.175c-2.713-17.466-11.377-32.603-23.571-42.68c-12.145-10.134-27.38-15.291-42.704-15.267 c-7.07-0.016-14.181,1.111-21.096,3.286C410.9,67.28,344.167,45.148,232.442,45.148c-128.255,0-197.248,29.153-193.362,87.468 c1.908,28.63,11.797,84.754,38.36,136.293c-11.41,4.112-22.182,9.26-31.896,15.496c-11.565,7.454-21.716,16.387-29.619,26.898 C8.034,321.797,2.411,334,0.548,347.338C0.184,349.913,0,352.512,0,355.102c-0.003,8.075,1.758,16.076,4.941,23.604 c5.598,13.199,15.312,25.001,28.192,35.463c19.375,15.684,46.121,28.63,79.982,37.915c33.868,9.268,74.897,14.76,122.84,14.768 c72.724-0.041,129.706-12.643,169.893-32.055c20.081-9.75,36.068-21.225,47.558-34.384c5.738-6.603,10.348-13.648,13.568-21.16 c3.22-7.503,5.002-15.504,5.002-23.571c0-1.773-0.082-3.538-0.262-5.304c-1.307-13.674-6.652-26.301-14.416-37.138 c-11.688-16.289-28.639-28.998-48.172-38.266c-6.587-3.106-13.502-5.779-20.628-8.067c1.193-2.354,2.37-4.716,3.498-7.078 c10.037,3.89,20.367,5.795,30.388,5.77c12.292,0,24.062-2.722,34.654-7.38c15.896-7.012,29.284-18.201,39.043-31.964 c9.701-13.764,15.896-30.379,15.921-48.262C512,174.086,511.698,170.13,511.06,166.175z M232.442,85.948 c76.213,0,137.985,15.676,137.985,34.989c0,19.321-61.772,34.981-137.985,34.981c-76.197,0-137.969-15.66-137.969-34.981 C94.472,101.624,156.244,85.948,232.442,85.948z M408.39,314.564c8.696,5.762,15.676,12.325,20.449,19.002 c4.789,6.743,7.397,13.428,8.059,20.196c0.065,0.63,0.098,1.276,0.098,1.921c0,2.959-0.621,6.155-2.183,9.8 c-2.688,6.366-8.492,14.049-18.111,21.741c-14.36,11.58-37.04,22.974-67.387,31.188c-30.346,8.263-68.326,13.469-113.36,13.461 c-68.944,0.041-121.19-12.218-154.806-28.695c-16.812-8.189-28.887-17.425-36.227-26.006c-3.69-4.282-6.199-8.369-7.751-12.055 c-1.558-3.702-2.183-6.98-2.196-10.012c0-0.981,0.074-1.937,0.205-2.893c0.952-6.702,3.788-13.314,8.716-19.902 c7.335-9.832,19.521-19.23,34.666-26.178c5.431-2.5,11.311-4.577,17.351-6.407c6.505,9.292,13.632,18.226,21.585,26.472 c8.046,8.352,15.582,15.03,22.946,20.506c-7.593,4.446-11.97,9.44-11.97,14.727c0,18.512,52.201,33.526,116.6,33.526 c64.404,0,116.597-15.014,116.597-33.526c0-8.361-10.707-15.978-28.295-21.854c4.536-3.94,9.187-8.369,14.025-13.379 c8.443-8.762,15.978-18.275,22.787-28.205C384.526,301.732,397.733,307.478,408.39,314.564z M462.071,192.246 c-3.269,7.25-9.162,14.262-16.322,19.117c-7.176,4.903-15.332,7.608-23.367,7.601c-4.348-0.025-8.762-0.85-13.372-2.624 c5.264-16.517,9.13-32.374,11.802-46.48c3.269-5.15,6.93-8.664,10.625-10.993c4.479-2.811,9.089-3.996,13.347-4.004 c5.026,0.016,9.44,1.626,12.839,4.454c3.351,2.893,6.146,6.914,7.388,14.221c0.23,1.471,0.344,2.958,0.344,4.455 C465.357,182.562,464.278,187.416,462.071,192.246z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <a href="pastries.html"><h2>Pastries</h2></a>
+          <div class="nav-icon">
+            <svg
+              fill="#f4f3f9"
+              viewBox="0 0 50 50"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <title>A Pastry</title>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M35.777344 19.71875L30.28125 14.222656C29.910156 13.847656 29.3125 13.828125 28.914063 14.175781L5.148438 35.050781C4.855469 35.308594 4.738281 35.71875 4.851563 36.089844 4.882813 36.195313 5.644531 38.652344 8.496094 41.503906 11.347656 44.355469 13.804688 45.117188 13.90625 45.148438 14.003906 45.179688 14.101563 45.191406 14.195313 45.191406 14.480469 45.191406 14.753906 45.070313 14.945313 44.851563L35.824219 21.085938C36.171875 20.6875 36.152344 20.089844 35.777344 19.71875zM26.828125 13.347656L4.929688 32.582031C1.863281 28.121094 1.066406 25.09375 1.03125 24.945313.925781 24.523438 1.101563 24.085938 1.46875 23.855469L22.867188 10.484375C23.265625 10.238281 23.777344 10.296875 24.105469 10.625zM39.375 25.894531L36.652344 23.171875 17.417969 45.070313C21.875 48.136719 24.90625 48.933594 25.054688 48.96875 25.136719 48.988281 25.21875 49 25.296875 49 25.636719 49 25.960938 48.828125 26.144531 48.53125L39.515625 27.128906C39.761719 26.734375 39.703125 26.222656 39.375 25.894531zM19.160156 7.929688L20.707031 9.476563 2.5 20.851563C1.125 15.980469 1.425781 12.664063 1.441406 12.503906 1.484375 12.082031 1.785156 11.730469 2.195313 11.632813L18.214844 7.667969C18.550781 7.582031 18.914063 7.683594 19.160156 7.929688zM42.070313 30.839844L40.519531 29.289063 29.152344 47.488281C32.460938 48.421875 35.066406 48.597656 36.429688 48.597656 37.074219 48.597656 37.445313 48.5625 37.496094 48.558594 37.917969 48.515625 38.265625 48.214844 38.367188 47.804688L42.332031 31.785156C42.417969 31.445313 42.316406 31.089844 42.070313 30.839844zM15.992188 6.15625L4.113281 9.097656C4.242188 5.601563 4.964844 0 9.074219 0 10.777344 0 12.757813 2.117188 15.992188 6.15625zM44.101563 32.972656L40.921875 45.808594C46.636719 45.21875 50 42.03125 50 38.925781 50 37.132813 47.800781 35.460938 44.101563 32.972656z"
+                ></path>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="contact-form">
+        <h1>Contact us</h1>
+        <form action="#">
+          <div class="form-headers">
+            <div class="form-name">
+              <label for="name"> Name: </label>
+              <input type="text" name="name" id="name" placeholder="Name " />
             </div>
-            <div class="form-text-container">
-              <div class="form-text">
-                <label for="Text"></label>
-                <textarea
-                  name="text"
-                  id="text"
-                  rows="10"
-                  cols="50"
-                  placeholder="Please write here..."
-                ></textarea>
-              </div>
+            <div class="form-email">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="email@email.com"
+              />
             </div>
-          </form>
-        </div> -->
+          </div>
+          <div class="form-text-container">
+            <div class="form-text">
+              <label for="Text"></label>
+              <textarea
+                name="text"
+                id="text"
+                rows="10"
+                cols="50"
+                placeholder="Please write here..."
+              ></textarea>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-links">
+        <a href="https://www.facebook.com/" target="_blank">
+          <div class="nav-icon link">
+            <svg
+              width="64px"
+              height="64px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <title>Facebook</title>
+                <path
+                  class="icon-link"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H15V13.9999H17.0762C17.5066 13.9999 17.8887 13.7245 18.0249 13.3161L18.4679 11.9871C18.6298 11.5014 18.2683 10.9999 17.7564 10.9999H15V8.99992C15 8.49992 15.5 7.99992 16 7.99992H18C18.5523 7.99992 19 7.5522 19 6.99992V6.31393C19 5.99091 18.7937 5.7013 18.4813 5.61887C17.1705 5.27295 16 5.27295 16 5.27295C13.5 5.27295 12 6.99992 12 8.49992V10.9999H10C9.44772 10.9999 9 11.4476 9 11.9999V12.9999C9 13.5522 9.44771 13.9999 10 13.9999H12V21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
+                  fill="#f4f3f9"
+                ></path>
+              </g>
+            </svg>
+          </div>
+        </a>
+        <a href="https://x.com/" target="_blank">
+          <div class="nav-icon link">
+            <svg
+              width="64px"
+              height="64px"
+              viewBox="0 0 20.00 20.00"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              fill="#000000"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <title>Twitter</title>
+                <desc>Created with Sketch.</desc>
+                <defs></defs>
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <g
+                    id="Dribbble-Light-Preview"
+                    transform="translate(-60.000000, -7521.000000)"
+                    fill="#f4f3f9"
+                  >
+                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                      <path
+                        class="icon-link"
+                        d="M10.29,7377 C17.837,7377 21.965,7370.84365 21.965,7365.50546 C21.965,7365.33021 21.965,7365.15595 21.953,7364.98267 C22.756,7364.41163 23.449,7363.70276 24,7362.8915 C23.252,7363.21837 22.457,7363.433 21.644,7363.52751 C22.5,7363.02244 23.141,7362.2289 23.448,7361.2926 C22.642,7361.76321 21.761,7362.095 20.842,7362.27321 C19.288,7360.64674 16.689,7360.56798 15.036,7362.09796 C13.971,7363.08447 13.518,7364.55538 13.849,7365.95835 C10.55,7365.79492 7.476,7364.261 5.392,7361.73762 C4.303,7363.58363 4.86,7365.94457 6.663,7367.12996 C6.01,7367.11125 5.371,7366.93797 4.8,7366.62489 L4.8,7366.67608 C4.801,7368.5989 6.178,7370.2549 8.092,7370.63591 C7.488,7370.79836 6.854,7370.82199 6.24,7370.70483 C6.777,7372.35099 8.318,7373.47829 10.073,7373.51078 C8.62,7374.63513 6.825,7375.24554 4.977,7375.24358 C4.651,7375.24259 4.325,7375.22388 4,7375.18549 C5.877,7376.37088 8.06,7377 10.29,7376.99705"
+                        id="twitter-[#154]"
+                      ></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <div class="nav-icon link">
+            <svg
+              fill="#f4f3f9"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="64px"
+              height="64px"
+              viewBox="0 0 512 512"
+              enable-background="new 0 0 512 512"
+              xml:space="preserve"
+              transform="rotate(0)"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <title>Instagram</title>
+                <g id="5151e0c8492e5103c096af88a50059a5">
+                  <path
+                    class="icon-link"
+                    display="inline"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M66.084,0.5h379.819c36.079,0,65.597,29.505,65.597,65.584 v379.819c0,36.079-29.518,65.597-65.597,65.597H66.084C30.005,511.5,0.5,481.982,0.5,445.903V66.084 C0.5,30.005,30.005,0.5,66.084,0.5L66.084,0.5z M372.734,57.264c-12.65,0-23.005,10.355-23.005,23.005v55.067 c0,12.65,10.354,23.005,23.005,23.005h57.762c12.65,0,23.005-10.354,23.005-23.005V80.269c0-12.65-10.354-23.005-23.005-23.005 H372.734L372.734,57.264z M453.738,216.59h-44.975c4.254,13.897,6.55,28.606,6.55,43.852c0,84.996-71.111,153.898-158.839,153.898 c-87.716,0-158.827-68.902-158.827-153.898c0-15.245,2.295-29.954,6.55-43.852H57.276v215.853c0,11.178,9.132,20.322,20.311,20.322 h355.841c11.166,0,20.311-9.145,20.311-20.322V216.59L453.738,216.59z M256.475,155.447c-56.677,0-102.625,44.525-102.625,99.443 s45.948,99.443,102.625,99.443c56.688,0,102.636-44.525,102.636-99.443S313.163,155.447,256.475,155.447z"
+                  ></path>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </a>
+        <a href="https://uk.linkedin.com/" target="_blank">
+          <div class="nav-icon link">
+            <svg
+              width="64px"
+              height="64px"
+              viewBox="0 0 20 20"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              fill="#f4f3f9"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <title>Linkedin</title>
+                <desc>Created with Sketch.</desc>
+                <defs></defs>
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <g
+                    id="Dribbble-Light-Preview"
+                    transform="translate(-180.000000, -7479.000000)"
+                    fill="#f4f3f9"
+                  >
+                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                      <path
+                        class="icon-link"
+                        d="M144,7339 L140,7339 L140,7332.001 C140,7330.081 139.153,7329.01 137.634,7329.01 C135.981,7329.01 135,7330.126 135,7332.001 L135,7339 L131,7339 L131,7326 L135,7326 L135,7327.462 C135,7327.462 136.255,7325.26 139.083,7325.26 C141.912,7325.26 144,7326.986 144,7330.558 L144,7339 L144,7339 Z M126.442,7323.921 C125.093,7323.921 124,7322.819 124,7321.46 C124,7320.102 125.093,7319 126.442,7319 C127.79,7319 128.883,7320.102 128.883,7321.46 C128.884,7322.819 127.79,7323.921 126.442,7323.921 L126.442,7323.921 Z M124,7339 L129,7339 L129,7326 L124,7326 L124,7339 Z"
+                        id="linkedin-[#161]"
+                      ></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
