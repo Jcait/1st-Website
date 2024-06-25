@@ -415,6 +415,10 @@ footer {
     width: 100%;
   }
 
+  select {
+    width: 100%;
+  }
+
   .customer-quotes {
     display: flex;
     flex-direction: column;
