@@ -443,6 +443,12 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+
+  .nav-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
   .nav-right {
     font-size: 0.5rem;
     width: 80%;
@@ -655,6 +661,7 @@ footer {
     justify-content: space-between;
     /* width: 40%; */
     width: 80%;
+    font-size: 1.2rem;
   }
 
   .opening-times-body {
