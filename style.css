@@ -498,6 +498,7 @@ footer {
 
   .upcoming-events {
     width: 100%;
+    margin-bottom: 10%;
   }
 
   .odd {
@@ -616,6 +617,7 @@ footer {
 
   .upcoming-events {
     width: 100%;
+    margin-bottom: 10%;
   }
 
   .odd {
@@ -625,6 +627,7 @@ footer {
   .lists {
     background-color: #f4f3f9;
     padding: 5%;
+    width: 100%;
   }
 
   iframe {
