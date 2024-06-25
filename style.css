@@ -404,7 +404,13 @@ footer {
   font-size: 2rem;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 343px) {
+  .nav-right {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 343px) and (max-width: 568px) {
   body {
     display: flex;
     height: 100vh;
