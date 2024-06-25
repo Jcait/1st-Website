@@ -536,6 +536,10 @@ footer {
   td {
     font-size: 1.2rem;
   }
+
+  table {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 343px) and (max-width: 568px) {
