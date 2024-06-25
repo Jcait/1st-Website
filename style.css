@@ -531,6 +531,11 @@ footer {
   th {
     padding: 0%;
   }
+
+  th,
+  td {
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and (min-width: 343px) and (max-width: 568px) {
@@ -633,6 +638,11 @@ footer {
 
   th {
     padding: 5%;
+  }
+
+  th,
+  td {
+    font-size: 1.2rem;
   }
 }
 
