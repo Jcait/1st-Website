@@ -23,7 +23,7 @@ body {
 
   color: #1b1e18;
   font-family: var(--title-font-family);
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 nav,
@@ -86,6 +86,10 @@ ul {
 
 th + td {
   width: 25%;
+}
+
+tbody {
+  height: 800px;
 }
 
 input,
@@ -322,6 +326,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 50%;
 }
 
 .upcoming-events {
@@ -406,6 +411,13 @@ footer {
     flex-wrap: wrap;
   }
 
+  .opening-times-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
   .upcoming-events {
     width: 100%;
   }
@@ -457,6 +469,13 @@ footer {
     justify-content: space-between;
     /* width: 40%; */
     width: 80%;
+  }
+
+  .opening-times-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
 
   .menu-item {
