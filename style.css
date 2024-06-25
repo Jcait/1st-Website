@@ -104,6 +104,16 @@ input {
   height: 100%;
 }
 
+select {
+  font-size: 0.9rem;
+  width: 80%;
+  margin-top: 2.5%;
+}
+
+option {
+  text-align: left;
+}
+
 footer {
   margin-top: 2%;
 }
@@ -368,6 +378,11 @@ footer {
   display: flex;
   flex-direction: column;
   padding-top: 2.5%;
+  align-items: center;
+}
+
+.reason-placeholder {
+  text-align: center;
 }
 
 @media screen and (max-width: 568px) {

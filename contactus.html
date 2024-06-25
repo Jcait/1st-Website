@@ -243,7 +243,17 @@
 
             <div class="form-reason">
               <label for="reason">What does your query relate to?</label>
-              <select name="reason" id="reason"></select>
+              <select name="reason" id="reason">
+                <option class="reason-placeholder" value="">
+                  --- Please Select a Reason---
+                </option>
+                <option value="event">I want to host an event</option>
+                <option value="advertise">
+                  I want to advertise at your cafe
+                </option>
+                <option value="complaint">I want to make a complaint</option>
+                <option value="other">Other</option>
+              </select>
             </div>
           </div>
           <div class="form-text-container">
