@@ -542,7 +542,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 343px) and (max-width: 568px) {
+@media screen and (min-width: 343px) and (max-width: 586px) {
   body {
     display: flex;
     height: 100vh;
