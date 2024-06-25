@@ -521,6 +521,7 @@ footer {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    font-size: 0.75rem;
   }
   .nav-right {
     padding-right: 5%;
