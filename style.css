@@ -100,6 +100,10 @@ textarea {
   border-radius: 2.5%;
 }
 
+textarea {
+  font-size: 1rem;
+}
+
 input {
   height: 100%;
 }
@@ -400,6 +404,12 @@ footer {
 }
 
 @media screen and (max-width: 568px) {
+  body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   .nav-links {
     /* font-size: 0.8rem; */
     display: flex;
